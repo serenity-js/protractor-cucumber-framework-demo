@@ -21,7 +21,14 @@ Feature: Calculations
     Then she should see that the result is 42
 
   @fast @smoke
-  Scenario: Multiplying numbers
+  Scenario Outline: Multiplying numbers
 
-    When she multiplies 6 and 2
-    Then she should see that the result is 12
+  The great thing about Serenity/JS reports is that they aggregate all the examples from a `Scenario Outline`.
+
+    When she multiplies <first> and <second>
+    Then she should see that the result is <expected>
+
+    Examples:
+      | first | second | expected | comment          |
+      | -5    | -3     | 15       | Negative numbers |
+      | 6     | 2      | 12       | Positive numbers |
