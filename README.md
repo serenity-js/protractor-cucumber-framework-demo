@@ -1,16 +1,15 @@
-# Serenity/JS Cucumber Protractor Template
+# Protractor Cucumber Framework with Serenity/JS
 
-[![Build Status](https://github.com/serenity-js/serenity-js-cucumber-protractor-template/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-cucumber-protractor-template/actions)
-[![dependencies Status](https://status.david-dm.org/gh/serenity-js/serenity-js-cucumber-protractor-template.svg)](https://david-dm.org/serenity-js/serenity-js-cucumber-protractor-template)
+[![Build Status](https://github.com/jan-molak/protractor-cucumber-framework-demo/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-cucumber-protractor-template/actions)
+[![dependencies Status](https://status.david-dm.org/gh/jan-molak/protractor-cucumber-framework-demo.svg)](https://david-dm.org/jan-molak/protractor-cucumber-framework-demo)
 
-Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-to get started with acceptance testing your web applications using [Serenity/JS](https://serenity-js.org), [Cucumber](https://github.com/cucumber/cucumber-js) and [Protractor](http://www.protractortest.org/). 
+This project was created using a [Serenity/JS template](https://github.com/serenity-js/serenity-js-cucumber-protractor-template) to demonstrate how to use [`protractor-cucumber-framework`](https://github.com/protractor-cucumber-framework/protractor-cucumber-framework)
+together with [Serenity/JS](https://serenity-js.org) and its [reporting services](https://serenity-js.org/handbook/reporting/index.html) to produce HTML reports and living documentation of your project.
 
-You might also want to have a look at the [Serenity BDD reports](https://serenity-js.github.io/serenity-js-cucumber-protractor-template/) produced by this project.
-
-Learn more:
-- [Serenity/JS Website](https://serenity-js.org)
-- [Serenity/JS API Docs](https://serenity-js.org/modules)
+- [Example report](https://jan-molak.github.io/protractor-cucumber-framework-demo/)
+- Learn more:
+    - [Serenity/JS Website](https://serenity-js.org)
+    - [Serenity/JS API Docs](https://serenity-js.org/modules)
 
 ## Prerequisites
 
@@ -20,10 +19,6 @@ To use this project, you'll need:
 - Chrome web browser - [download](https://www.google.co.uk/chrome/)
 
 Follow the [installation instructions](https://serenity-js.org/handbook/integration/runtime-dependencies.html) to help you verify your setup.
-
-## Usage
-
-This repository is a GitHub template. You can use it to create new [GitHub repositories](https://help.github.com/en/articles/creating-a-repository-from-a-template) or simply [clone it to your computer](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ### Installation
 
@@ -56,7 +51,6 @@ Similar instructions are available for the [`chromedriver` module](https://www.n
 The project provides several [NPM scripts](https://docs.npmjs.com/cli/v6/using-npm/scripts) defined in [`package.json`](package.json):
 
 ```
-npm run lint            # runs the code linter
 npm run clean           # removes reports from any previous test run
 npm test                # executes the example test suite
                         # and generates the report under ./target/site/serenity
