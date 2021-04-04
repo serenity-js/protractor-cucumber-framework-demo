@@ -1,7 +1,7 @@
 # Protractor Cucumber Framework with Serenity/JS
 
-[![Build Status](https://github.com/jan-molak/protractor-cucumber-framework-demo/workflows/build/badge.svg)](https://github.com/jan-molak/protractor-cucumber-framework-demo/actions)
-[![dependencies Status](https://status.david-dm.org/gh/jan-molak/protractor-cucumber-framework-demo.svg)](https://david-dm.org/jan-molak/protractor-cucumber-framework-demo)
+[![Build Status](https://github.com/serenity-js/protractor-cucumber-framework-demo/workflows/build/badge.svg)](https://github.com/serenity-js/protractor-cucumber-framework-demo/actions)
+[![dependencies Status](https://status.david-dm.org/gh/serenity-js/protractor-cucumber-framework-demo.svg)](https://david-dm.org/serenity-js/protractor-cucumber-framework-demo)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/SerenityJS?style=social)](https://twitter.com/@SerenityJS)
 [![Twitter Follow](https://img.shields.io/twitter/follow/JanMolak?style=social)](https://twitter.com/@JanMolak)
