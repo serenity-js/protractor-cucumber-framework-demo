@@ -1,6 +1,6 @@
 # Protractor Cucumber Framework with Serenity/JS
 
-[![Build Status](https://github.com/jan-molak/protractor-cucumber-framework-demo/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-cucumber-protractor-template/actions)
+[![Build Status](https://github.com/jan-molak/protractor-cucumber-framework-demo/workflows/build/badge.svg)](https://github.com/jan-molak/protractor-cucumber-framework-demo/actions)
 [![dependencies Status](https://status.david-dm.org/gh/jan-molak/protractor-cucumber-framework-demo.svg)](https://david-dm.org/jan-molak/protractor-cucumber-framework-demo)
 
 This project was created using a [Serenity/JS template](https://github.com/serenity-js/serenity-js-cucumber-protractor-template) to demonstrate how to use [Angular Protractor](https://github.com/angular/protractor) and [`protractor-cucumber-framework`](https://github.com/protractor-cucumber-framework/protractor-cucumber-framework)
