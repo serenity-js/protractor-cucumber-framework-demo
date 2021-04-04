@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/jan-molak/protractor-cucumber-framework-demo/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-cucumber-protractor-template/actions)
 [![dependencies Status](https://status.david-dm.org/gh/jan-molak/protractor-cucumber-framework-demo.svg)](https://david-dm.org/jan-molak/protractor-cucumber-framework-demo)
 
-This project was created using a [Serenity/JS template](https://github.com/serenity-js/serenity-js-cucumber-protractor-template) to demonstrate how to use [`protractor-cucumber-framework`](https://github.com/protractor-cucumber-framework/protractor-cucumber-framework)
+This project was created using a [Serenity/JS template](https://github.com/serenity-js/serenity-js-cucumber-protractor-template) to demonstrate how to use [Angular Protractor](https://github.com/angular/protractor) and [`protractor-cucumber-framework`](https://github.com/protractor-cucumber-framework/protractor-cucumber-framework)
 together with [Serenity/JS](https://serenity-js.org) and its [reporting services](https://serenity-js.org/handbook/reporting/index.html) to produce HTML reports and living documentation of your project.
 
 - [Example report](https://jan-molak.github.io/protractor-cucumber-framework-demo/)
