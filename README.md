@@ -9,7 +9,7 @@
 This project was created using a [Serenity/JS template](https://github.com/serenity-js/serenity-js-cucumber-protractor-template) to demonstrate how to integrate [Angular Protractor](https://github.com/angular/protractor) and [`protractor-cucumber-framework`](https://github.com/protractor-cucumber-framework/protractor-cucumber-framework)
 together with [Serenity/JS](https://serenity-js.org) and its [reporting services](https://serenity-js.org/handbook/reporting/index.html) to produce HTML reports and living documentation of your project.
 
-- [Example report](https://jan-molak.github.io/protractor-cucumber-framework-demo/)
+- [Example report](https://serenity-js.github.io/protractor-cucumber-framework-demo/)
 - Learn more:
     - [Serenity/JS Website](https://serenity-js.org)
     - [Serenity/JS API Docs](https://serenity-js.org/modules)
