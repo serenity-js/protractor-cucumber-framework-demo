@@ -1,6 +1,6 @@
-const { strictEqual } = require('assert').strict
-const { Given, Then, When } = require('@cucumber/cucumber')
-const { browser, by, element } = require('protractor')
+import { strictEqual } from 'assert'
+import { Given, Then, When } from '@cucumber/cucumber'
+import { browser, by, element } from 'protractor'
 
 // PLEASE NOTE:
 //  To keep this example simple, the implementation below invokes Protractor APIs directly and doesn't use any design patterns.
