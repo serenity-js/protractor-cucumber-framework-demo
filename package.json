@@ -41,7 +41,7 @@
     "@serenity-js/serenity-bdd": "^2.33.4",
     "@types/node": "^16.11.26",
     "protractor-cucumber-framework": "^8.3.0",
-    "chromedriver": "^97.0.4",
+    "chromedriver": "^100.0.0",
     "is-ci": "^3.0.1",
     "npm-failsafe": "^0.4.3",
     "protractor": "^7.0.0",
