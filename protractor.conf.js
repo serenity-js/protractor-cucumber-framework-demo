@@ -1,9 +1,7 @@
 const
     { ConsoleReporter } = require('@serenity-js/console-reporter'),
     { ArtifactArchiver } = require('@serenity-js/core'),
-    { Photographer, TakePhotosOfInteractions } = require('@serenity-js/protractor'),
-    { SerenityBDDReporter } = require('@serenity-js/serenity-bdd'),
-    isCI = require('is-ci');
+    { SerenityBDDReporter } = require('@serenity-js/serenity-bdd');
 
 exports.config = {
     baseUrl: 'https://juliemr.github.io/',
@@ -30,8 +28,6 @@ exports.config = {
             // Learn more at https://serenity-js.org/handbook/reporting/index.html
             ArtifactArchiver.storingArtifactsAt('./target/site/serenity'),
             ConsoleReporter.forDarkTerminals(),
-            Photographer.whoWill(TakePhotosOfInteractions),     // slower execution, more comprehensive reports
-            // Photographer.whoWill(TakePhotosOfFailures),      // fast execution, screenshots only when tests fail
             new SerenityBDDReporter(),
         ]
     },
@@ -41,10 +37,10 @@ exports.config = {
             'features/step_definitions/*.ts',
             'features/support/.serenity.ts',
         ],
-        'require-module':   [
+        'requireModule':   [
             'ts-node/register'
         ],
-        tags:    ['~@wip'],
+        tags:    ['not @wip'],
         strict:  false,
     },
 
@@ -67,14 +63,15 @@ exports.config = {
 
         chromeOptions: {
             args: [
-                '--no-sandbox',
+                '--disable-web-security',
+                '--allow-file-access-from-files',
+                '--allow-file-access',
                 '--disable-infobars',
-                '--disable-dev-shm-usage',
-                '--disable-extensions',
-                '--log-level=3',
+                '--ignore-certificate-errors',
+                '--headless',
                 '--disable-gpu',
-                '--window-size=1920,1080',
-            ].concat(isCI ? ['--headless'] : [])    // run in headless mode on the CI server
+                '--window-size=1024x768',
+            ]
         }
     }
 };
