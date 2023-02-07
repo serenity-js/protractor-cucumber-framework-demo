@@ -34,12 +34,12 @@
   },
   "dependencies": {
     "@cucumber/cucumber": "^8.10.0",
-    "@serenity-js/core": "^3.0.0-rc.40",
-    "@serenity-js/console-reporter": "^3.0.0-rc.40",
-    "@serenity-js/cucumber": "^3.0.0-rc.40",
-    "@serenity-js/protractor": "^3.0.0-rc.40",
-    "@serenity-js/serenity-bdd": "^3.0.0-rc.40",
-    "@serenity-js/web": "^3.0.0-rc.40",
+    "@serenity-js/core": "^3.0.0-rc.41",
+    "@serenity-js/console-reporter": "^3.0.0-rc.41",
+    "@serenity-js/cucumber": "^3.0.0-rc.41",
+    "@serenity-js/protractor": "^3.0.0-rc.41",
+    "@serenity-js/serenity-bdd": "^3.0.0-rc.41",
+    "@serenity-js/web": "^3.0.0-rc.41",
     "protractor-cucumber-framework": "^9.0.0",
     "protractor": "^7.0.0"
   },
