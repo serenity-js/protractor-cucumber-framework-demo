@@ -46,7 +46,7 @@
   "devDependencies": {
     "@types/node": "^16.18.12",
     "chromedriver": "^109.0.0",
-    "npm-failsafe": "^0.4.3",
+    "npm-failsafe": "^1.0.0",
     "http-server": "^14.1.1",
     "mkdirp": "^1.0.4",
     "rimraf": "^3.0.2",
