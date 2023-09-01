@@ -43,7 +43,7 @@
     "protractor": "^7.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.17.12",
+    "@types/node": "^18.17.13",
     "chromedriver": "^116.0.0",
     "npm-failsafe": "^1.0.0",
     "http-server": "^14.1.1",
